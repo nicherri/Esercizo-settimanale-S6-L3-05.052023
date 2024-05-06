@@ -1,0 +1,25 @@
+@import "./partial/caroselloCard";
+
+@media screen and (min-width: 1201px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+.buttonNav{
+    color: white;
+}
+
+#searchExpanded {
+    display: none;
+  }
+
+  .show-search #searchExpanded {
+    display: flex;
+  }
+
+  #flex1 {
+    align-self: flex-start;
+  }
+
+  
